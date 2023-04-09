@@ -83,7 +83,7 @@ const Navbar = props => {
           {/* <LinkItem href="/posts" path={path}>
             Posts
           </LinkItem> */}
-          <LinkItem href="https://study-home.vercel.app">Study</LinkItem>
+          <LinkItem href="https://study-homepages.vercel.app">Study</LinkItem>
           <LinkItem href="">AtCoder</LinkItem>
           <LinkItem
             target="_blank"
@@ -120,7 +120,7 @@ const Navbar = props => {
                 {/* <MenuItem as={MenuLink} href="/posts">
                   Posts
                 </MenuItem> */}
-                <MenuItem as={MenuLink} href="https://study-home.vercel.app">
+                <MenuItem as={MenuLink} href="https://study-homepages.vercel.app">
                   Study
                 </MenuItem> 
                 <MenuItem as={MenuLink} href="https://">
