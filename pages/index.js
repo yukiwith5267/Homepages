@@ -147,7 +147,7 @@ const Home = () => (
           Born in Tochigi (栃木), Japan.
         </BioSection>
         <BioSection>
-          <BioYear>2021</BioYear>I dropped out of high school due to a sleep
+          <BioYear>2020</BioYear>I dropped out of high school due to a sleep
           disorder that caused me to stop going to school.
         </BioSection>
         <BioSection>
