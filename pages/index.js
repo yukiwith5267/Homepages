@@ -11,7 +11,7 @@ import {
   // useColorModeValue,
   chakra
 } from '@chakra-ui/react'
-import { ChevronRightIcon, } from '@chakra-ui/icons'
+import { ChevronRightIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
@@ -21,7 +21,6 @@ import { IoLogoGithub } from 'react-icons/io5'
 import thumbYouTube from '../public/images/links/youtube.png'
 // import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
 import Image from 'next/image'
-
 
 const ProfileImage = chakra(Image, {
   shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
@@ -44,10 +43,11 @@ const Home = () => (
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-           Yuki Tezuka
+            Yuki Tezuka
           </Heading>
           <p>
-          小学生がふらふらと たんぽぽの綿毛で遊んでいるような感じの生き方をしたい
+            小学生がふらふらと
+            たんぽぽの綿毛で遊んでいるような感じの生き方をしたい
           </p>
         </Box>
         <Box
@@ -82,14 +82,44 @@ const Home = () => (
           Life
         </Heading>
         <Paragraph>
-        I left school in my sophomore year of high school because I had a sleep disorder and didn&apos;t want to wear myself out any more. I am now back in society and living a leisurely life as a college student. In my opinion, it is good to work hard according to the evaluation standards and competition set by school and society. However, if you have doubts about the indicators and competition, it is okay to step out of the competition. If you feel overwhelmed by competition or the pressure to meet society&apos;s expectations, you need to take a step back and reevaluate what is best for you. I have often seen people around me who cannot stop even when they want to, because winning the competition has become their own goal. It would be a waste if we become so obsessed with winning that we neglect our own happiness. We must remember that there are different measures of success and that we can prioritize things like self-care, mental health, and personal growth over traditional achievements. In order to enjoy life, we also need to uninstall our ideas and values of how we should be. I also think it is important to let go of the good waves we feel at the time. If you are tired of competition, it is good to listen to your intuition and pursue what brings you joy and fulfillment. If you want to spend your time chasing the success of others, remember that life is too short. It is good to have goals and aspirations, but it is also important to find balance and savor the present moment.
+          I had a sleep disorder that kept me out of high school. Then I left
+          school because I did not want to wear out myself any further. I am now
+          back in society and living a relaxed life as a college student. In my
+          opinion, it is good to effort to follow the evaluation index and
+          competition scale defined by school and society, but if you have
+          questions about those indexes and competition scale, it is not a
+          problem to drop out of the competition once you are in doubt. When you
+          feel pressured by competition and the pressure to respond to
+          society&apos;s expectations, it is important to take a step back and
+          rethink what is best for you. I have often seen people around me who
+          cannot stop even when they want to, because winning the competition
+          has become their self-purpose. It would be a shame if you became so
+          obsessed with winning that you neglected your own happiness. It&apos;s
+          important to remember that there are various measures of success and
+          that we can put things like self-care, mental health, and personal
+          growth ahead of traditional accomplishments. In order to enjoy life,
+          it is important to uninstall our concept and values of what we
+          &ldquo;should be&ldquo; and to let go of the good vibes we feel at any
+          given time. If you are tired of competition, how about going after
+          what brings you joy and fulfillment by leaning on your intuition? If
+          you want to spend your time pursuing the success of others, remember
+          that life is too short. It is good to have goals and desire, but it is
+          also important to balance them and enjoy the present moment.
           <br />
           <br />
-          &ldquo;Don&apos;t be afraid to stray from the expected path in order to pursue
-          what you love.&ldquo;
+          &ldquo;Don&apos;t be afraid to stray from the expected path in order
+          to pursue what you love.&ldquo;
           <br />
           <br />
-          僕は睡眠障害で高校時代に不登校になりました。これ以上自分を消耗させたくないという思いから、高校2年生の春に退学しました。今は社会復帰して、大学生としてのんびり暮らしています。僕の考えとして、学校や社会が定めた評価の指標や競争の尺度に沿ってひたすら努力するのは良いことですが、もしその指標や競争の尺度に疑問を感じているならば、いったんその競争から外れてみても良いと思います。競争や社会の期待に応えなければならないというプレッシャーに押しつぶされそうになったら、一歩引いて自分にとってのベストは何なのかを見直してみることも必要です。僕の周りでは、競争に勝つことが自己目的化してしまい、止まろう思っていても止まれない人をよく見かけました。勝つことに執着するあまり、自分の幸福をないがしろにしてしまっては、元も子もないです。成功の尺度はさまざまであり、従来の成果よりもセルフケアやメンタルヘルス、自己成長といったものを優先させることができることを忘れてはいけません。人生を楽しむためには、「自分がこうあるべき」という考え方や価値観をアンインストールして、その時に感じる良い波に身を任せることも大切だと思います。競争に疲れたら、直感に耳を傾けて、喜びや充実感を得られることを追求してみるのも良いと思います。もし他人の成功を追いかけるのに時間を費やしたいのならば、人生はあまりにも短いということを忘れないでください。目標や願望を持つことは良いことですが、バランスを取り、今この瞬間を味わうことも大切です。
+          僕は睡眠障害で高校時代に不登校になりました。これ以上自分を消耗させたくないという思いから、高校を退学しました。
+          今は社会復帰して、大学生としてのんびり暮らしています。僕の考えとして、学校や社会が定めた評価の指標や競争の尺度に沿ってひたすら努力するのは良いことですが、
+          もしその指標や競争の尺度に疑問を感じているならば、いったんその競争から外れてみても良いと思います。
+          競争や社会の期待に応えなければならないというプレッシャーに押しつぶされそうになったら、一歩引いて自分にとってのベストは何なのかを見直してみることも必要です。
+          過去に、僕の周りでは、競争に勝つことが自己目的化してしまい、止まろう思っていても止まれない人をよく見かけました。勝つことに執着するあまり、自分の幸福をないがしろにしてしまっては、
+          元も子もないと思います。成功の尺度はさまざまであり、従来の成果よりもセルフケアやメンタルヘルス、自己成長といったものを優先させることができることを忘れてはいけません。
+          人生を楽しむためには、「自分がこうあるべき」という考え方や価値観をアンインストールして、その時に感じる良い波に身を任せることも大切だと思います。
+          競争に疲れたら、直感に耳を傾けて、喜びや充実感を得られることを追求してみるのも良いと思います。もし他人の成功を追いかけるのに時間を費やしたいのならば、
+          人生はあまりにも短いということを忘れないでください。目標や願望を持つことは良いことですが、バランスを取り、今この瞬間を味わうことも大切です。
           <br />
           <br />
           &ldquo;好きなことを追求するために、期待された道から外れることを恐れてはいけない&ldquo;
@@ -226,7 +256,6 @@ const Home = () => (
             Sign up my newsletter here
           </Button>
         </Box> */}
-
       </Section>
     </Container>
   </Layout>
