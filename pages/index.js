@@ -131,7 +131,7 @@ const Home = () => (
             href="/works"
             scroll={false}
             rightIcon={<ChevronRightIcon />}
-            colorScheme="teal"
+            colorScheme="cyan"
           >
             My portfolio
           </Button>
@@ -178,7 +178,7 @@ const Home = () => (
             <Link href="https://github.com/yukiwith5267" target="_blank">
               <Button
                 variant="ghost"
-                colorScheme="teal"
+                colorScheme="cyan"
                 leftIcon={<IoLogoGithub />}
               >
                 @yukiwith5267
