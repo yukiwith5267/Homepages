@@ -84,7 +84,7 @@ const Navbar = props => {
             Posts
           </LinkItem> */}
           <LinkItem href="https://study-homepages.vercel.app">Study</LinkItem>
-          <LinkItem href="">AtCoder</LinkItem>
+          <LinkItem href="https://zenn.dev/yukitezuka">Articles</LinkItem>
           <LinkItem
             target="_blank"
             href="https://github.com/yukiwith5267"
@@ -123,8 +123,8 @@ const Navbar = props => {
                 <MenuItem as={MenuLink} href="https://study-homepages.vercel.app">
                   Study
                 </MenuItem> 
-                <MenuItem as={MenuLink} href="https://">
-                  AtCoder
+                <MenuItem as={MenuLink} href="https://zenn.dev/yukitezuka">
+                  Articles
                 </MenuItem>
                 <MenuItem
                   as={Link}
